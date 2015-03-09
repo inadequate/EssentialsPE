@@ -9,7 +9,7 @@ use pocketmine\utils\TextFormat;
 
 class Back extends BaseCommand{
     public function __construct(Loader $plugin){
-        parent::__construct($plugin, "back", "Teleport to your previous location", "/back", ["return"]);
+        parent::__construct($plugin, "back", "Вы были телепортированы на место смерти!", "/back", ["return"]);
         $this->setPermission("essentials.back");
     }
 
